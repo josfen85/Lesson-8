@@ -24,7 +24,7 @@ body {
 
 .outwrapper2 {
 	display: flex;
-	flex-flow: row;
+	flex-direction: column;
 	width: 80%;
 	height: 100%;
 }
