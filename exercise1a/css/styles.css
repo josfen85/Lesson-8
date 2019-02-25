@@ -1,81 +1,64 @@
-*{
-	padding:0;
+body {
+	padding: 0;
 	margin: 0;
 }
 
-html, body
-{
-    height: 100%;
+html,
+body {
+	height: 100%;
 }
 
 .wrapper {
-  display: flex;  
-  flex-flow: row wrap;
-  font-weight: bold;
-  text-align: center;
-  width: 100%;
-  height: 100%;
-}
-
-.outwrapper1{
-  display: flex;  
-  flex-flow: column no wrap;
-  height: 100%;
-  width : 20%;
-  background: #CDDC39;
-}
-
-.outwrapper2{
-	display: flex;  
-    flex-flow: row wrap;
-	width: 80%;
-	height:100%;	
-	padding: 0px;
-	margin:0px;	
-}
-
-.outwrapper2a{
 	display: flex;
-	flex-flow: column no wrap;
-	width: 100%;
-	height:20%;
-	background: lime;
+	flex-flow: row;
+	font-weight: bold;
+	height: 100%;
 }
 
-.outwrapper2b{
-	display: flex;  
-    flex-flow: row no wrap;
-	height: 80%;
-	width: 100%;
+.outwrapper1 {
+	height: 100%;
+	width: 20%;
+	background: #CDDC39;
 }
 
-.outwrapper2ba{
-	display: flex;  
-    flex-flow: column wrap;
+.outwrapper2 {
+	display: flex;
+	flex-direction: column;
 	width: 80%;
 	height: 100%;
-
 }
-.outwrapper2ba > article{
-	display: flex;
-	width:100%;
-	height: 80%;
 
-	background: wheat;
-}	
-
-.outwrapper2ba > footer{
+.outwrapper2a {
 	width: 100%;
 	height: 20%;
 	background: lime;
-}	
+}
 
+.outwrapper2b {
+	display: flex;
+	height: 80%;
+}
+
+.outwrapper2ba {
+	display: flex;
+	flex-flow: column;
+	width: 80%;
+	height: 100%;
+}
+
+.outwrapper2ba>article {
+	display: flex;
+	height: 80%;
+	background: wheat;
+}
+
+.outwrapper2ba>footer {
+	height: 20%;
+	background: lime;
+}
 
 .outwrapper2bb {
-	display: flex;
 	width: 20%;
 	height: 100%;
 	background: cyan;
-	flex-wrap: wrap;
-
 }

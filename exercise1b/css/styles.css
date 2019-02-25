@@ -1,81 +1,82 @@
-*{
-	padding:0;
+* {
+	padding: 0;
 	margin: 0;
 }
 
-html, body
-{
-    height: 100%;
+html,
+body {
+	height: 100%;
 }
 
 .wrapper {
-  display: flex;  
-  flex-flow: row wrap;
-  font-weight: bold;
-  text-align: center;
-  width: 100%;
-  height: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	font-weight: bold;
+	text-align: center;
+	width: 100%;
+	height: 100%;
 }
 
 
 
-.outwrapper1{
-  display: flex;  
-  flex-flow: column no wrap;
-  height: 100%;
-  width : 20%;
-  background: #CDDC39;
+.outwrapper1 {
+	display: flex;
+	flex-flow: column no wrap;
+	height: 100%;
+	width: 20%;
+	background: #CDDC39;
 }
 
 
-.outwrapper2{
-	display: flex;  
-    flex-flow: row wrap;
+.outwrapper2 {
+	display: flex;
+	flex-flow: row wrap;
 	width: 80%;
-	height:100%;	
+	height: 100%;
 	padding: 0px;
-	margin:0px;	
+	margin: 0px;
 }
 
-.outwrapper2 > header {
+.outwrapper2>header {
 	display: flex;
 	flex-flow: column no wrap;
 	width: 100%;
-	height:20%;
+	height: 20%;
 	background: lime;
 }
 
 
-.outwrapper2a{
-	display: flex;  
-    flex-flow: row wrap;
+.outwrapper2a {
+	display: flex;
+	flex-flow: row wrap;
 	width: 100%;
 	height: 60%;
 
 }
-.outwrapper2a > article{
+
+.outwrapper2a>article {
 	display: flex;
-	width:80%;
+	width: 80%;
 	height: 100%;
 
 	background: wheat;
-}	
+}
 
 
-.outwrapper2a > aside{
+.outwrapper2a>aside {
 	display: flex;
 	width: 20%;
 	height: 100%;
 
 }
 
-.outwrapper2b > footer{
+.outwrapper2b>footer {
 	width: 100%;
 	height: 100%;
 	background: lime;
-}	
+}
 
-.outwrapper2b{
-	height:20%;
+.outwrapper2b {
+	height: 20%;
 	width: 100%;
 }
